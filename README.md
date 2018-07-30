@@ -17,8 +17,8 @@
 3) Execute `truffle test`
 4) Restart Ganache
 5) Execute `truffle deploy`
-6) Replace contractAddress value in `/ui/script.js` with the deployed Marketplace contract address
-7) Navigate to `/ui`
+6) Navigate to `/ui`
+7) Replace contractAddress value in `script.js` with the deployed Marketplace contract address
 8) Execute `npm install`
 9) Run `http-server -c-1`
 10) Open `http://127.0.0.1:8080`
