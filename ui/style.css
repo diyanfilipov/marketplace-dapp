@@ -1,0 +1,17 @@
+#productInfo td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#marketplaceContainer {
+  width: 50%;
+  float: left;
+}
+
+#ownerContainer {
+  float: right;
+}
+
+.rightAlign {
+  text-align: right;
+}

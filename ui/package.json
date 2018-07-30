@@ -1,0 +1,17 @@
+{
+  "name": "diyanfilipov.hw",
+  "version": "1.0.0",
+  "description": "HW for lecture 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diyan Filipov",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.0.3",
+    "truffle": "^4.1.13",
+    "web3": "^0.20.4",
+    "http-server": "^0.11.1"
+  }
+}

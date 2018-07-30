@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+
+	<body>
+		<h2>Marketplace dApp</h2>
+		<br/>
+		<div id="info">
+			<div id="message"></div>
+			<div id="events"></div>
+		</div>
+
+		<div id="marketplaceContainer">
+			<table>
+				<tr>
+					<td>
+						<div>
+							<!-- <h2>Product Info</h2>
+							<input type="text" id="productId"/>
+							<input type="button" onclick="onGetProductByIdPressed()" value="Get Product By Id"/>
+							<br/><br/> -->
+							<div>
+								<table>
+									<thead>
+										<th>Name</th>
+										<th>Price</th>
+										<th>Quantity</th>
+										<th></th>
+									</thead>
+									<tbody id="productInfo">
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div>
+							<h2>Cart</h2>
+							<table>
+								<thead>
+									<th>Product</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</thead>
+								<tbody id="cart"/>
+							</table>
+						</div>
+						<input type="button" value="Clear" onclick="clearCart()"/>
+						<input type="button" value="Checkout" onclick="checkout()"/>
+						<div>Total: <span id="total"/></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="ownerContainer">
+			<h2>Owner Operations</h2>
+			<div>
+				<b>Turnover:</b><span id="turnover"></span>
+				<input type="button" value="Withdraw" onclick="withdraw()"/>
+			</div>
+			<table>
+					<tr>
+						<td>
+							<table>
+								<tr>
+									<td><b>Product Name:</b></td>
+									<td><input type="text" id="newProductName"/></td>
+								</tr>
+								<tr>
+									<td><b>Product Price:</b></td>
+									<td><input type="text" id="newProductPrice"/></td>
+								</tr>
+								<tr>
+									<td><b>Product Quantity:</b></td>
+									<td><input type="text" id="newProductQuantity"/></td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td><b>Product Id:</b></td>
+									<td><input type="text" id="productIdToUpdate"/></td>
+								</tr>
+								<tr>
+									<td><b>New Quantity:</b></td>
+									<td><input type="text" id="updatedQuantity"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="button" onclick="onCreateProductPressed()" value="Create Product"/>
+						</td>
+						<td>
+							<input type="button" onclick="onUpdateProductPressed()" value="Update Product"/>
+						</td>
+					</tr>
+			</table>
+
+			<div>
+				<h2>Products</h2>
+				<input type="button" onclick="onGetProductsPressed()" value="Get Products"/>
+				<br/><br/>
+				<table>
+						<thead>
+							<th>Name</th>
+							<th>Price</th>
+							<th>Quantity</th>
+							<th>ProductId</th>
+						</thead>
+						<tbody id="productData"/>
+				</table>
+			</div>
+		</div>
+
+
+
+
+
+
+
+	</body>
+</html>
