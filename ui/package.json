@@ -1,13 +1,13 @@
 {
-  "name": "diyanfilipov.hw",
+  "name": "Marketplace dApp UI",
   "version": "1.0.0",
-  "description": "HW for lecture 7",
+  "description": "Final Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Diyan Filipov",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ganache-cli": "^6.0.3",
     "truffle": "^4.1.13",
