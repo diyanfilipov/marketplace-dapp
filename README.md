@@ -22,6 +22,7 @@
 8) Execute `npm install`
 9) Run `http-server -c-1`
 10) Open `http://127.0.0.1:8080`
+11) Make sure you have Metamask plugin installed in the browser and configured to connect to local Ethereum network (Ganache)
 11) Enjoy!!!
 
 ## License
